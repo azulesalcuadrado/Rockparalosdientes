@@ -1,0 +1,147 @@
+@font-face{
+      font-family:DAMAGEPLAN PERSONAL USE;
+	  src :url("fuentes/DAMAGEPLAN PERSONAL USE.ttf");
+}
+@font-face{
+	  font-family:White On Black;
+	  src :url("fuentes/White On Black.ttf");
+}
+body {
+	background-color:black;
+	background-image:url(imagenes/fondos/fondo3.png);
+	background-attachment:fixed;
+}
+
+h1{
+   color:#7b1e1e;
+   text-align:center;
+   font-family:DAMAGEPLAN PERSONAL USE;
+   font-size:75px;
+   text-shadow:1px 1px 2px #ffffff;
+   
+}
+h2{
+	color:#7b1e1e;
+	border-bottom:2px;
+	border-bottom-color:#7b1e1e;
+	border-bottom: solid;
+	border-width:2px;
+	margin-left:3%; 
+	margin-right:3%;
+	font-family:White On Black;
+}
+hr{
+	color:red;
+	margin-left:2%; 
+	margin-right:2%;
+	border-width:0,5px;
+}
+h3{
+	color:#7b1e1e;
+	border-bottom:2px;
+	border-bottom-color:#7b1e1e;
+	border-bottom: solid;
+	border-width:2px;
+	margin-left:4%; 
+	margin-right:4%;
+	font-family:White On Black;
+}
+p{
+	font-family:FRAHV, ARIALNB, Swis721 Hv BT Heavy;
+	color:#7b1e1e;
+	text-align:justify; 
+    margin-top:15px; 
+	margin-bottom:25px;
+	margin-left:5%; 
+	margin-right:5%; 
+	line-height:20px;
+	text-shadow: 1px 1px 2px #ffffffbf;
+}
+img{
+	display:block;
+	margin:auto;
+	margin-bottom:2%;
+    margin-top:2%;		
+}
+.imagen{
+	display:block;
+	margin:auto;
+	margin-bottom:4%;
+	margin-top:4%;		
+}
+.fotos{
+	 margin-left:4%;
+	 margin-right:4%;
+     display:inline;
+     border-radius:20px;
+     box-shadow: 6px 6px 6px #a11010d4;	 
+}
+table{
+	text-shadow: 1px 1px 8px #ff0000;
+	color:#ffffff;
+	text-align:justify; 
+    margin-top:8px; 
+	margin-bottom:5px;
+	margin-left:15%; 
+	margin-right:5%; 
+	line-height:15px;
+	border-bottom-style:solid;
+	border-bottom-color:#7b1e1e;
+	border-top-style:solid;
+	border-top-color:#7b1e1e;
+	border-left-style:solid;
+	border-left-color:#7b1e1e;
+	border-right-style:solid;
+	border-right-color:#7b1e1e;
+	
+}
+ol{
+	color:#7b1e1e;
+	text-align:justify;
+	margin-left:40%; 
+
+}
+
+ul{
+	color:#7b1e1e;  
+	margin-left:8%;
+}
+.li{
+	font-family:FRAHV, Swis721 Hv BT Heavy;
+	border-bottom:2px;
+	border-bottom-color:#7b1e1e;
+	border-bottom:solid;
+	border-width:2px;
+	
+}
+a:link{ 
+	 text-decoration:none;
+	 color:#7b1e1e;
+	 margin-bottom:2%;
+	 margin-top:2%;
+	 margin-left:5%;
+	 text-shadow:1px 1px 4px #ffffff87;
+	 background-color:#16091a;
+	 text-align:center;
+	 font-family:FRAHV, Swis721 Hv BT Heavy;
+	 font-size: 15px;
+	 
+ }
+.link{
+	margin-left:1%; 
+	margin-right:2%;
+	margin-top:2%;
+    margin-bottom:2%;	
+	border-bottom-style: solid;
+	border-radius:5px;
+	font-family:FRAHV, Swis721 Hv BT Heavy;
+}
+ a:visited{
+	 color:#932727;
+	
+ }
+ a:hover{
+	text-decoration:none;
+	text-shadow: 1px 1px 4px #ff0000;
+	
+}
